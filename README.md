@@ -5,10 +5,12 @@
 ## Description
 This project is what I did in the freshman year in the university, using arduino and raspberry pi boards to implement a simple mobile car. It can achieve the functions are: remote control, obstacle avoidance and ranging.
 
+## Video
+The follow video show the basic function of the [raspberry_pi_simple_car(raspberry pi + arduino)](http://v.youku.com/v_show/id_XNzMzMzcxNjU2.html?from=y1.7-2).
 
 ## Configure
 1. Please connect lines correctly.
-2. Download **raspberry_pi_simple_car.ino** program to the arduino
+2. Download **raspberry_pi_simple_car.ino** program to the arduino.
 3. Start the raspberry pi, switch directory to Desktop, and use follow command to get codes.
 ```bash
 $> cd Desktop

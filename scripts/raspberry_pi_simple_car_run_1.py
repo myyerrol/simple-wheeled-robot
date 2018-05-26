@@ -13,7 +13,6 @@ serial_from_arduino = serial.Serial(port, 9600)
 serial_from_arduino.flushInput()
 serial_to_arduino.write('n')
 
-
 def detecte_distance():
     distance = raspberry_pi_simple_car.get_distance()
 
@@ -47,7 +46,6 @@ def detecte_distance():
         raspberry_pi_simple_car.buzzing()
         raspberry_pi_simple_car.__init__()
         raspberry_pi_simple_car.go_left(2)
-
 
 def input_key(event):
     raspberry_pi_simple_car.__init__()
@@ -179,7 +177,6 @@ def input_key(event):
         raspberry_pi_simple_car.buzzing()
         raspberry_pi_simple_car.__init__()
         raspberry_pi_simple_car.go_left(2)
-
 
 try:
     command = tk.Tk()

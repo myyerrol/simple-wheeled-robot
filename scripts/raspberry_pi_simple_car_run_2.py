@@ -5,7 +5,6 @@ from raspberry_pi_simple_car_lib import RaspberryPiSimpleCar
 raspberry_pi_simple_car = RaspberryPiSimpleCar()
 raspberry_pi_simple_car.initialize_lcd()
 
-
 def input_key(event):
     print 'Key', event.char
     key_press = event.char
@@ -38,7 +37,6 @@ def input_key(event):
     if distance < 10:
         raspberry_pi_simple_car.__init__()
         raspberry_pi_simple_car.go_reverse(2)
-
 
 try:
     command = tk.Tk()

@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Type=Application
 Name=raspberry_pi_simple_car
-Exec=sudo python /home/pi/Desktop/raspberry_pi_simple_car/scripts/raspberry_pi_simple_car_a.py
+Exec=sudo python /home/pi/Desktop/raspberry_pi_simple_car/scripts/raspberry_pi_simple_car_run_1.py
 StartupNotify=false
 Terminal=false
 Hidden=false

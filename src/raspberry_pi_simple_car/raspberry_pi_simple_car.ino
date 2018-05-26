@@ -6,19 +6,19 @@ int      motor_value_a;
 int      motor_value_b;
 int      motor_value_c;
 int      motor_value_d;
-int      motor_a = 6;
-int      motor_b = 7;
-int      motor_c = 8;
-int      motor_d = 9;
-int      servo = 5;
-int      led = 2;
-int      led_red = 13;
-int      led_yellow = 12;
-int      led_green = 11;
-int      distance_sensor_left = 3;
+int      motor_a               = 6;
+int      motor_b               = 7;
+int      motor_c               = 8;
+int      motor_d               = 9;
+int      servo                 = 5;
+int      led                   = 2;
+int      led_red               = 13;
+int      led_yellow            = 12;
+int      led_green             = 11;
+int      distance_sensor_left  = 3;
 int      distance_sensor_right = 4;
 char     data;
-uint16_t angle = 1500;
+uint16_t angle                 = 1500;
 
 void setup()
 {

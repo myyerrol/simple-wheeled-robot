@@ -2,19 +2,18 @@ import time
 import smbus
 import RPi.GPIO as gpio
 
-motor_run_left = 17
-motor_run_right = 10
-motor_direction_left = 4
+motor_run_left        = 17
+motor_run_right       = 10
+motor_direction_left  = 4
 motor_direction_right = 25
-led_left = 7
-led_right = 8
-ultrasonic_trig = 23
-ultrasonic_echo = 24
-servo = 11
-buzzer = 18
+led_left              = 7
+led_right             = 8
+ultrasonic_trig       = 23
+ultrasonic_echo       = 24
+servo                 = 11
+buzzer                = 18
+lcd_address           = 0x27
 data_bus = smbus.SMBus(1)
-lcd_address = 0x27
-
 
 class RaspberryPiSimpleCar:
     def __init__(self):

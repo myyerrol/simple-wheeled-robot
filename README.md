@@ -17,6 +17,7 @@ The following video show the basic function of the [raspberry_pi_simple_car(rasp
 ## Configure
 
 1. Please connect lines correctly.
+
 2. Download **raspberry_pi_simple_car.ino** program to the arduino.
 3. Start the raspberry pi, switch directory to Desktop, and use follow command to get codes.
 

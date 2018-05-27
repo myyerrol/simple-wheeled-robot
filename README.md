@@ -12,6 +12,8 @@ This project is what I did in the freshman year in the university, using arduino
 
 ## Video
 
+<iframe height=498 width=510 src='http://player.youku.com/embed/XNzMzMzcxNjU2' frameborder=0 'allowfullscreen'></iframe>
+
 The following video show the basic function of the [raspberry_pi_simple_car(raspberry pi + arduino)](http://v.youku.com/v_show/id_XNzMzMzcxNjU2.html?from=y1.7-2).
 
 ## Configure

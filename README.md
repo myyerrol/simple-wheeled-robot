@@ -20,14 +20,14 @@ The following video show the basic function of the [raspberry_pi_simple_car)](ht
 2. Download **raspberry_pi_simple_car.ino** program to the arduino.
 3. Start the raspberry pi, switch directory to Desktop, and use follow command to get codes.
 
-  ```bash
+  ```sh
   $> cd Desktop
   $> git clone https://github.com/myyerrol/raspberry_pi_simple_car.git
   ```
 
 4. Set autostart and reboot raspberry pi to enjoy!
 
-  ```bash
+  ```sh
   $> mkdir /home/pi/.config/autostart
   $> cd ../.config/autostart
   $> cp ../Desktop/raspberry_pi_simple_car/config/raspberry_pi_simple_car.desktop ./

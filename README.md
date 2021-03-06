@@ -12,7 +12,7 @@ This project is what I did in the freshman year in the university, using arduino
 
 ## Video
 
-The following video show the basic function of the [simple_wheeled_robot)](https://www.bilibili.com/video/BV19J411Q79D).
+The following video show the basic function of the [simple_wheeled_robot](https://www.bilibili.com/video/BV19J411Q79D).
 
 ## Configure
 

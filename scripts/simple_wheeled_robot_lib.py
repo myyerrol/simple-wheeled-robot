@@ -15,7 +15,7 @@ buzzer                = 18
 lcd_address           = 0x27
 data_bus = smbus.SMBus(1)
 
-class RaspberryPiSimpleCar:
+class SimpleWheeledRobot:
     def __init__(self):
         gpio.setmode(gpio.BCM)
         gpio.setup(motor_run_left, gpio.OUT)

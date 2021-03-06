@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=simple_wheeled_robot
+Exec=sudo python /home/pi/Desktop/simple_wheeled_robot/scripts/simple_wheeled_robot_run_1.py
+StartupNotify=false
+Terminal=false
+Hidden=false
+Name[en_US]=simple_wheeled_robot.desktop

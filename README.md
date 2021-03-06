@@ -1,6 +1,6 @@
-# raspberry_pi_simple_car
+# simple_wheeled_robot
 
-![raspberry_pi_simple_car_c](.images/raspberry_pi_simple_car_3.jpg)
+![simple_wheeled_robot](.images/simple_wheeled_robot_3.jpg)
 
 ## Description
 
@@ -8,21 +8,21 @@ This project is what I did in the freshman year in the university, using arduino
 
 ## Principle
 
-![raspberry_pi_simple_car_fritzing](.images/raspberry_pi_simple_car_fritzing.png)
+![simple_wheeled_robot_fritzing](.images/simple_wheeled_robot_fritzing.png)
 
 ## Video
 
-The following video show the basic function of the [raspberry_pi_simple_car)](https://v.youku.com/v_show/id_XNzMzMzcxNjU2.html?spm=a2hzp.8244740.0.0).
+The following video show the basic function of the [simple_wheeled_robot)](https://www.bilibili.com/video/BV19J411Q79D).
 
 ## Configure
 
 1. Please connect lines correctly.
-2. Download **raspberry_pi_simple_car.ino** program to the arduino.
+2. Download **simple_wheeled_robot.ino** program to the arduino.
 3. Start the raspberry pi, switch directory to Desktop, and use follow command to get codes.
 
   ```sh
   $> cd Desktop
-  $> git clone https://github.com/myyerrol/raspberry_pi_simple_car.git
+  $> git clone https://github.com/myyerrol/simple_wheeled_robot.git
   ```
 
 4. Set autostart and reboot raspberry pi to enjoy!
@@ -30,7 +30,7 @@ The following video show the basic function of the [raspberry_pi_simple_car)](ht
   ```sh
   $> mkdir /home/pi/.config/autostart
   $> cd ../.config/autostart
-  $> cp ../Desktop/raspberry_pi_simple_car/config/raspberry_pi_simple_car.desktop ./
+  $> cp ../Desktop/simple_wheeled_robot/config/simple_wheeled_robot.desktop ./
   $> sudo reboot
   ```
 

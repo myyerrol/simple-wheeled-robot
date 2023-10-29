@@ -1,4 +1,4 @@
-# simple_wheeled_robot
+# simple-wheeled-robot
 
 ![simple_wheeled_robot](.images/simple_wheeled_robot_3.jpg)
 
@@ -12,7 +12,7 @@ This project is what I did in the freshman year in the university, using arduino
 
 ## Video
 
-The following video show the basic function of the [simple_wheeled_robot](https://www.bilibili.com/video/BV19J411Q79D).
+The following video show the basic function of the [simple-wheeled-robot](https://www.bilibili.com/video/BV19J411Q79D).
 
 ## Configure
 
@@ -22,7 +22,7 @@ The following video show the basic function of the [simple_wheeled_robot](https:
 
   ```sh
   $> cd Desktop
-  $> git clone https://github.com/myyerrol/simple_wheeled_robot.git
+  $> git clone https://github.com/myyerrol/simple-wheeled-robot.git
   ```
 
 4. Set autostart and reboot raspberry pi to enjoy!
@@ -30,7 +30,7 @@ The following video show the basic function of the [simple_wheeled_robot](https:
   ```sh
   $> mkdir /home/pi/.config/autostart
   $> cd ../.config/autostart
-  $> cp ../Desktop/simple_wheeled_robot/config/simple_wheeled_robot.desktop ./
+  $> cp ../Desktop/simple-wheeled-robot/config/simple_wheeled_robot.desktop ./
   $> sudo reboot
   ```
 
